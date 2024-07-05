@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhxKYKV3UjYv5LLme-c9IxgHs7bS5f8TcqrQ&s"
+        type="image/x-icon">
+        <link rel="stylesheet" href="age_calculator.css">
+</head>
+
+<body>
+
+    <div id="age_calculator" class="flex_col">
+        <h1>Age Calculator</h1>
+        <div id="date_of_birth" class="flex_col">
+            <label for="birth">Date of Birth:</label>
+            <input type="date" id="birth" name="birthdate">
+        </div>
+        <div id="current_date" class="flex_col">
+            <label for="current">Current Date:</label>
+            <input type="date" id="current" name="currentdate">
+        </div>
+        <button onclick="calculate()">Calculate Age</button>
+        <div id="result">You are 20 years, 5 months and 10 days old</div>
+    </div>
+    <script src="age_calculator.js"></script>
+</body>
+
+</html>
